@@ -8,6 +8,7 @@ function gerar () {
         let n = Number(num.value)
         
         re.value = ''
+        re.cols = 11
         for(let c = 1; c <= 10; c++) {
             re.value += `${n} x ${c} = ${n * c}\n`
         }
